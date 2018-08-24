@@ -63,7 +63,7 @@ var orm = {
         queryString += " WHERE ";
         queryString += condition;
 
-        console.log(queryString);
+        // console.log(queryString);
         conneciton.query(queryString, function (err, result) {
             if (err) {
                 throw err;
