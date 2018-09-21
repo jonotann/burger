@@ -64,7 +64,7 @@ var orm = {
         queryString += condition;
 
         // console.log(queryString);
-        conneciton.query(queryString, function (err, result) {
+        connection.query(queryString, function (err, result) {
             if (err) {
                 throw err;
             }
